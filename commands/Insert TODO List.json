@@ -1,0 +1,8 @@
+{
+  "beforeRunningCommand": "nop",
+  "command": "#!/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/bin/ruby -wKU\nrequire ENV['TM_SUPPORT_PATH'] + '/lib/escape.rb'\n\n10.times do |n|\n  start = ENV[\"TM_COMMENT_START#{\"_#{n}\" if n > 0}\"].to_s.strip\n  stop  = ENV[\"TM_COMMENT_END#{\"_#{n}\"   if n > 0}\"].to_s.strip\n  unless start.empty? || stop.empty?\n    print \"#{e_sn start}\\n\\tTODO $0\\n#{e_sn stop}\"\n    exit\n  end\nend\n\nfallback = ENV['TM_COMMENT_START'].to_s.strip\nprint \"#{e_sn fallback.sub(/.$/, '\\\\0 ')}TODO \"\n",
+  "input": "none",
+  "name": "Insert TODO List",
+  "output": "insertAsSnippet",
+  "tabTrigger": "todo"
+}

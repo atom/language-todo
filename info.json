@@ -1,0 +1,22 @@
+{
+  "contactEmailRot13": "Fbelh@freravgl.qr",
+  "contactName": "Stanley Rost",
+  "description": "If you tag your comments with <tt>TODO</tt>, <tt>FIXME</tt>, or similar, this bundle provides functionality to list all your tagged items, with the ability to jump to either of them.",
+  "mainMenu": {
+    "items": [
+      "14C1643E-7D51-11D9-859D-000D93B6E43C",
+      "D2F7F545-5149-47B9-AC62-DBDC6ACAB9BB",
+      "------------------------------------",
+      "65C4098C-BB16-4CA1-9297-B312BCD0433F",
+      "46C3E5A1-7E04-11D9-AE69-000D93B6E43C"
+    ],
+    "submenus": {}
+  },
+  "name": "TODO",
+  "ordering": [
+    "14C1643E-7D51-11D9-859D-000D93B6E43C",
+    "D2F7F545-5149-47B9-AC62-DBDC6ACAB9BB",
+    "46C3E5A1-7E04-11D9-AE69-000D93B6E43C",
+    "65C4098C-BB16-4CA1-9297-B312BCD0433F"
+  ]
+}
