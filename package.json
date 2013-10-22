@@ -1,5 +1,5 @@
 {
-  "name": "todo-tmbundle",
+  "name": "language-todo",
   "version": "0.1.0",
   "description": "TODO/FIXME highlighting support in Atom",
   "engines": {
