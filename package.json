@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/atom/language-todo.git"
   },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/atom/language-todo/issues"
   }
