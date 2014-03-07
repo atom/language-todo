@@ -1,6 +1,6 @@
-'fileTypes': []
-'injectionSelector': 'comment, text.plain'
+'scopeName': 'text.todo'
 'name': 'TODO'
+'injectionSelector': 'comment, text.plain'
 'patterns': [
   {
     'match': '\\b(TODO|FIXME|CHANGED)\\b'
@@ -14,4 +14,3 @@
     'name': 'storage.type.class.radar'
   }
 ]
-'scopeName': 'text.todo'
