@@ -10,7 +10,7 @@
     'captures':
       '1':
         'name': 'markup.underline.link.radar'
-    'match': '<(ra?dar:/(?:/problem|)/(?:[&0-9]+))>'
+    'match': '<(ra?dar:/(?:/problems?|)/(?:[&0-9]+))>'
     'name': 'storage.type.class.radar'
   }
 ]
