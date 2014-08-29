@@ -1,0 +1,21 @@
+'.source.ruby, .source.coffee':
+  'todo':
+    'prefix': 'todo'
+    'body': '# TODO: $0'
+  'fixme':
+    'prefix': 'fix'
+    'body': '# FIXME: $0'
+  'xxx':
+    'prefix': 'xxx'
+    'body': '# XXX: $0'
+
+'.text.haml':
+  'todo':
+    'prefix': 'todo'
+    'body': '-# TODO: $0'
+  'fixme':
+    'prefix': 'fix'
+    'body': '-# FIXME: $0'
+  'xxx':
+    'prefix': 'xxx'
+    'body': '-# XXX: $0'
