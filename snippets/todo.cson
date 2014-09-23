@@ -19,3 +19,36 @@
   'xxx':
     'prefix': 'xxx'
     'body': '-# XXX: $0'
+
+'.text.html.ruby, .text.erb':
+  'todo':
+    'prefix': 'todo'
+    'body': '<%# TODO: $0 %>'
+  'fixme':
+    'prefix': 'fix'
+    'body': '<%# FIXME: $0 %>'
+  'xxx':
+    'prefix': 'xxx'
+    'body': '<%# XXX: $0 %>'
+
+'.source.scss, .source.sass':
+  'todo':
+    'prefix': 'todo'
+    'body': '// TODO: $0'
+  'fixme':
+    'prefix': 'fix'
+    'body': '// FIXME: $0'
+  'xxx':
+    'prefix': 'xxx'
+    'body': '// XXX: $0'
+
+'.source.css':
+  'todo':
+    'prefix': 'todo'
+    'body': '/* TODO: $0 */'
+  'fixme':
+    'prefix': 'fix'
+    'body': '/* FIXME: $0 */'
+  'xxx':
+    'prefix': 'xxx'
+    'body': '/* XXX: $0 */'
