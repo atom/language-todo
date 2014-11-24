@@ -31,7 +31,7 @@
     'prefix': 'xxx'
     'body': '<%# XXX: $0 %>'
 
-'.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.less':
+'.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.less, .source.js':
   'todo':
     'prefix': 'todo'
     'body': '// TODO: $0'
