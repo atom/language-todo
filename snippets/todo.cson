@@ -8,6 +8,9 @@
   'xxx':
     'prefix': 'xxx'
     'body': '# XXX: $0'
+  'idea':
+    'prefix': 'idea'
+    'body': '# IDEA: $0'
 
 '.text.haml':
   'todo':
@@ -19,6 +22,9 @@
   'xxx':
     'prefix': 'xxx'
     'body': '-# XXX: $0'
+  'idea':
+    'prefix': 'idea'
+    'body': '-# IDEA: $0'
 
 '.text.html.ruby, .text.erb':
   'todo':
@@ -30,6 +36,9 @@
   'xxx':
     'prefix': 'xxx'
     'body': '<%# XXX: $0 %>'
+  'idea':
+    'prefix': 'idea'
+    'body': '<%# IDEA: $0 %>'
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js':
   'todo':
@@ -41,6 +50,9 @@
   'xxx':
     'prefix': 'xxx'
     'body': '// XXX: $0'
+  'idea':
+    'prefix': 'idea'
+    'body': '// IDEA: $0'
 
 '.source.css':
   'todo':
@@ -52,3 +64,6 @@
   'xxx':
     'prefix': 'xxx'
     'body': '/* XXX: $0 */'
+  'idea':
+    'prefix': 'idea'
+    'body': '/* IDEA: $0 */'
