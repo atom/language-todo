@@ -1,6 +1,6 @@
 # TODO support in Atom
 
-Adds syntax highlighting to `TODO`, `FIXME`, `CHANGED`, `XXX`, and `IDEA` in comments
+Adds syntax highlighting to `TODO`, `FIXME`, `CHANGED`, `XXX`, `IDEA`, and `HACK` in comments
 and text in Atom.
 
 Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
