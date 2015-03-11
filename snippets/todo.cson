@@ -14,6 +14,9 @@
   'hack':
     'prefix': 'hack'
     'body': '# HACK: $0'
+  'note':
+    'prefix': 'note'
+    'body': '# NOTE: $0'
 
 '.text.haml':
   'todo':
@@ -31,6 +34,9 @@
   'hack':
     'prefix': 'hack'
     'body': '-# HACK: $0'
+  'note':
+    'prefix': 'note'
+    'body': '-# NOTE: $0'
 
 '.text.html.ruby, .text.erb':
   'todo':
@@ -48,6 +54,9 @@
   'hack':
     'prefix': 'hack'
     'body': '<%# HACK: $0 %>'
+  'note':
+    'prefix': 'note'
+    'body': '<%# NOTE: $0 %>'
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js':
   'todo':
@@ -65,6 +74,9 @@
   'hack':
     'prefix': 'hack'
     'body': '// HACK: $0'
+  'note':
+    'prefix': 'note'
+    'body': '// NOTE: $0'
 
 '.source.css':
   'todo':
@@ -82,3 +94,6 @@
   'hack':
     'prefix': 'hack'
     'body': '/* HACK: $0 */'
+  'note':
+    'prefix': 'note'
+    'body': '/* NOTE: $0 */'
