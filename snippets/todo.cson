@@ -97,3 +97,23 @@
   'note':
     'prefix': 'note'
     'body': '/* NOTE: $0 */'
+
+'.text.html':
+  'todo':
+    'prefix': 'todo',
+    'body': '<!-- TODO: $0 -->'
+  'fixme':
+    'prefix': 'fix',
+    'body': '<!-- FIXME: $0 -->'
+  'xxx':
+    'prefix': 'xxx',
+    'body': '<!-- XXX: $0 -->'
+  'idea':
+    'prefix': 'idea',
+    'body': '<!-- IDEA: $0 -->'
+  'hack':
+    'prefix': 'hack',
+    'body': '<!-- HACK: $0 -->'
+  'note':
+    'prefix': 'note',
+    'body': '<!-- NOTE: $0 -->'
