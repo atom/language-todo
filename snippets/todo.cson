@@ -38,7 +38,7 @@
     'prefix': 'note'
     'body': '-# NOTE: $0'
 
-'.text.html.ruby, .text.erb':
+'.text.html.ruby .scope.outside-tag, .text.erb .scope.outside-tag':
   'todo':
     'prefix': 'todo'
     'body': '<%# TODO: $0 %>'
@@ -98,7 +98,7 @@
     'prefix': 'note'
     'body': '/* NOTE: $0 */'
 
-'.text.html':
+'.html.basic .scope.outside-tag':
   'todo':
     'prefix': 'todo',
     'body': '<!-- TODO: $0 -->'
