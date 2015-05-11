@@ -17,6 +17,9 @@
   'note':
     'prefix': 'note'
     'body': '# NOTE: $0'
+  'review':
+    'prefix': 'review'
+    'body': '# REVIEW: $0'
 
 '.text.haml':
   'todo':
@@ -37,6 +40,9 @@
   'note':
     'prefix': 'note'
     'body': '-# NOTE: $0'
+  'review':
+    'prefix': 'review'
+    'body': '-# REVIEW: $0'
 
 '.text.html.ruby .scope.outside-tag, .text.erb .scope.outside-tag':
   'todo':
@@ -57,6 +63,9 @@
   'note':
     'prefix': 'note'
     'body': '<%# NOTE: $0 %>'
+  'review':
+    'prefix': 'review'
+    'body': '<%# REVIEW: $0 %>'
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js':
   'todo':
@@ -77,6 +86,9 @@
   'note':
     'prefix': 'note'
     'body': '// NOTE: $0'
+  'review':
+    'prefix': 'review'
+    'body': '// REVIEW: $0'
 
 '.source.css':
   'todo':
@@ -97,6 +109,9 @@
   'note':
     'prefix': 'note'
     'body': '/* NOTE: $0 */'
+  'review':
+    'prefix': 'review'
+    'body': '/* REVIEW: $0 */'
 
 '.html.basic .scope.outside-tag':
   'todo':
@@ -117,3 +132,6 @@
   'note':
     'prefix': 'note',
     'body': '<!-- NOTE: $0 -->'
+  'review':
+    'prefix': 'review',
+    'body': '<!-- REVIEW: $0 -->'
