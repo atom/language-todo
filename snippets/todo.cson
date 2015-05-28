@@ -67,7 +67,7 @@
     'prefix': 'review'
     'body': '<%# REVIEW: $0 %>'
 
-'.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala':
+'.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts':
   'todo':
     'prefix': 'todo'
     'body': '// TODO: $0'
