@@ -44,7 +44,7 @@
     'prefix': 'review'
     'body': '-# REVIEW: $0'
 
-'.text.html.ruby .scope.outside-tag, .text.erb .scope.outside-tag':
+'.text.html.ruby, .text.erb':
   'todo':
     'prefix': 'todo'
     'body': '<%# TODO: $0 %>'
@@ -66,6 +66,22 @@
   'review':
     'prefix': 'review'
     'body': '<%# REVIEW: $0 %>'
+
+'.text.html.ruby .meta,tag, .text.erb .meta.tag':
+  'todo':
+    'prefix': 'todo'
+  'fixme':
+    'prefix': 'fix'
+  'xxx':
+    'prefix': 'xxx'
+  'idea':
+    'prefix': 'idea'
+  'hack':
+    'prefix': 'hack'
+  'note':
+    'prefix': 'note'
+  'review':
+    'prefix': 'review'
 
 '.html.basic':
   'todo':
