@@ -67,7 +67,7 @@
     'prefix': 'review'
     'body': '<%# REVIEW: $0 %>'
 
-'.html.basic .scope.outside-tag':
+'.html.basic':
   'todo':
     'prefix': 'todo',
     'body': '<!-- TODO: $0 -->'
@@ -89,6 +89,22 @@
   'review':
     'prefix': 'review',
     'body': '<!-- REVIEW: $0 -->'
+
+'.html.basic .meta.tag':
+  'todo':
+    'prefix': 'todo',
+  'fixme':
+    'prefix': 'fix',
+  'xxx':
+    'prefix': 'xxx',
+  'idea':
+    'prefix': 'idea',
+  'hack':
+    'prefix': 'hack',
+  'note':
+    'prefix': 'note',
+  'review':
+    'prefix': 'review',
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts':
   'todo':
