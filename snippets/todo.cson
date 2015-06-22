@@ -135,3 +135,19 @@
   'review':
     'prefix': 'review'
     'body': '/* REVIEW: $0 */'
+
+'.source.css .meta.property-value':
+  'todo':
+    'prefix': 'todo'
+  'fixme':
+    'prefix': 'fix'
+  'xxx':
+    'prefix': 'xxx'
+  'idea':
+    'prefix': 'idea'
+  'hack':
+    'prefix': 'hack'
+  'note':
+    'prefix': 'note'
+  'review':
+    'prefix': 'review'
