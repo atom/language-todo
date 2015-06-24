@@ -122,7 +122,7 @@
   'review':
     'prefix': 'review',
 
-'.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts':
+'.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts, .source.php':
   'todo':
     'prefix': 'todo'
     'body': '// TODO: $0'
@@ -183,3 +183,26 @@
     'prefix': 'note'
   'review':
     'prefix': 'review'
+
+'.text.html.php':
+  'todo':
+    'prefix': 'todo'
+    'body': '<?php // TODO: $1 ?>$0'
+  'fixme':
+    'prefix': 'fix'
+    'body': '<?php // FIXME: $1 ?>$0'
+  'xxx':
+    'prefix': 'xxx'
+    'body': '<?php // XXX: $1 ?>$0'
+  'idea':
+    'prefix': 'idea'
+    'body': '<?php // IDEA: $1 ?>$0'
+  'hack':
+    'prefix': 'hack'
+    'body': '<?php // HACK: $1 ?>$0'
+  'note':
+    'prefix': 'note'
+    'body': '<?php // NOTE: $1 ?>$0'
+  'review':
+    'prefix': 'review'
+    'body': '<?php // REVIEW: $1 ?>$0'
