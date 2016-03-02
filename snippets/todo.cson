@@ -206,3 +206,26 @@
   'review':
     'prefix': 'review'
     'body': '<?php // REVIEW: $1 ?>$0'
+
+'.source.nunjucks, .text.html.nunjucks':
+  'todo':
+    'prefix': 'todo'
+    'body': '{# TODO: $1 #}$0'
+  'fixme':
+    'prefix': 'fix'
+    'body': '{# FIXME: $1 #}$0'
+  'xxx':
+    'prefix': 'xxx'
+    'body': '{# XXX: $1 #}$0'
+  'idea':
+    'prefix': 'idea'
+    'body': '{# IDEA: $1 #}$0'
+  'hack':
+    'prefix': 'hack'
+    'body': '{# HACK: $1 #}$0'
+  'note':
+    'prefix': 'note'
+    'body': '{# NOTE: $1 #}$0'
+  'review':
+    'prefix': 'review'
+    'body': '{# REVIEW: $1 #}$0'
