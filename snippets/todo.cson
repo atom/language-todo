@@ -20,6 +20,9 @@
   'review':
     'prefix': 'review'
     'body': '# REVIEW: $0'
+  'bug':
+    'prefix': 'bug'
+    'body': '# BUG: $0'
 
 '.text.haml':
   'todo':
@@ -43,6 +46,9 @@
   'review':
     'prefix': 'review'
     'body': '-# REVIEW: $0'
+  'bug':
+    'prefix': 'bug'
+    'body': '-# BUG: $0'
 
 '.text.html.ruby, .text.erb':
   'todo':
@@ -66,6 +72,9 @@
   'review':
     'prefix': 'review'
     'body': '<%# REVIEW: $0 %>'
+  'bug':
+    'prefix': 'bug'
+    'body': '<%# BUG: $0 %>'
 
 '.text.html.ruby .meta,tag, .text.erb .meta.tag':
   'todo':
@@ -82,6 +91,8 @@
     'prefix': 'note'
   'review':
     'prefix': 'review'
+  'bug':
+    'prefix': 'bug'
 
 '.html.basic':
   'todo':
@@ -105,6 +116,9 @@
   'review':
     'prefix': 'review',
     'body': '<!-- REVIEW: $0 -->'
+  'bug':
+    'prefix': 'bug'
+    'body': '<!-- BUG: $0 -->'
 
 '.html.basic .meta.tag':
   'todo':
@@ -121,6 +135,8 @@
     'prefix': 'note',
   'review':
     'prefix': 'review',
+  'bug':
+    'prefix': 'bug'
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts, .source.php':
   'todo':
@@ -144,6 +160,9 @@
   'review':
     'prefix': 'review'
     'body': '// REVIEW: $0'
+  'bug':
+    'prefix': 'bug'
+    'body': '// BUG: $0'
 
 '.source.css':
   'todo':
@@ -167,6 +186,9 @@
   'review':
     'prefix': 'review'
     'body': '/* REVIEW: $0 */'
+  'bug':
+    'prefix': 'bug'
+    'body': '/* BUG: $0 */'
 
 '.source.css .meta.property-value':
   'todo':
@@ -183,6 +205,8 @@
     'prefix': 'note'
   'review':
     'prefix': 'review'
+  'bug':
+    'prefix': 'bug'
 
 '.text.html.php':
   'todo':
@@ -206,3 +230,32 @@
   'review':
     'prefix': 'review'
     'body': '<?php // REVIEW: $1 ?>$0'
+  'bug':
+    'prefix': 'bug'
+    'body': '<?php // BUG: $1 ?>$0'
+
+'.text.python':
+  'todo':
+    'prefix': 'todo'
+    'body': '# TODO: $0'
+  'fixme':
+    'prefix': 'fix'
+    'body': '# FIXME: $0'
+  'xxx':
+    'prefix': 'xxx'
+    'body': '# XXX: $0'
+  'idea':
+    'prefix': 'idea'
+    'body': '# IDEA: $0'
+  'hack':
+    'prefix': 'hack'
+    'body': '# HACK: $0'
+  'note':
+    'prefix': 'note'
+    'body': '# NOTE: $0'
+  'review':
+    'prefix': 'review'
+    'body': '# REVIEW: $0'
+  'bug':
+    'prefix': 'bug'
+    'body': '# BUG: $0'
