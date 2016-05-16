@@ -1,4 +1,4 @@
-'.source.ruby, .source.puppet, .source.coffee':
+'.source.ruby, .source.puppet, .source.coffee .source.python':
   'todo':
     'prefix': 'todo'
     'body': '# TODO: $0'
@@ -233,29 +233,3 @@
   'bug':
     'prefix': 'bug'
     'body': '<?php // BUG: $1 ?>$0'
-
-'.text.python':
-  'todo':
-    'prefix': 'todo'
-    'body': '# TODO: $0'
-  'fixme':
-    'prefix': 'fix'
-    'body': '# FIXME: $0'
-  'xxx':
-    'prefix': 'xxx'
-    'body': '# XXX: $0'
-  'idea':
-    'prefix': 'idea'
-    'body': '# IDEA: $0'
-  'hack':
-    'prefix': 'hack'
-    'body': '# HACK: $0'
-  'note':
-    'prefix': 'note'
-    'body': '# NOTE: $0'
-  'review':
-    'prefix': 'review'
-    'body': '# REVIEW: $0'
-  'bug':
-    'prefix': 'bug'
-    'body': '# BUG: $0'
