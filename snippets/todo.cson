@@ -1,4 +1,4 @@
-'.source.ruby, .source.puppet, .source.coffee .source.python':
+'.source.ruby, .source.puppet, .source.coffee, .source.python':
   'todo':
     'prefix': 'todo'
     'body': '# TODO: $0'
