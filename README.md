@@ -1,6 +1,6 @@
 # TODO support in Atom [![Build Status](https://travis-ci.org/atom/language-todo.svg?branch=master)](https://travis-ci.org/atom/language-todo)
 
-Adds syntax highlighting to `TODO`, `FIXME`, `CHANGED`, `XXX`, `IDEA`, `HACK`, `NOTE`, and `REVIEW` in comments
+Adds syntax highlighting to `TODO`, `FIXME`, `CHANGED`, `XXX`, `IDEA`, `HACK`, `NOTE`, `REVIEW`, `NB` and `BUG` in comments
 and text in Atom.
 
 Originally [converted](http://atom.io/docs/latest/converting-a-text-mate-bundle)
