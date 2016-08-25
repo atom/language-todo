@@ -23,6 +23,9 @@
   'bug':
     'prefix': 'bug'
     'body': '# BUG: $0'
+  'question':
+    'prefix': 'question'
+    'body': '# QUESTION: $0'
 
 '.text.haml':
   'todo':
@@ -49,6 +52,9 @@
   'bug':
     'prefix': 'bug'
     'body': '-# BUG: $0'
+  'question':
+    'prefix': 'question'
+    'body': '-# QUESTION: $0'
 
 '.text.html.ruby, .text.erb':
   'todo':
@@ -75,6 +81,9 @@
   'bug':
     'prefix': 'bug'
     'body': '<%# BUG: $0 %>'
+  'question':
+    'prefix': 'question'
+    'body': '<%# QUESTION: $0 %>'
 
 '.text.html.ruby .meta,tag, .text.erb .meta.tag':
   'todo':
@@ -93,6 +102,8 @@
     'prefix': 'review'
   'bug':
     'prefix': 'bug'
+  'question':
+    'prefix': 'question'
 
 '.html.basic':
   'todo':
@@ -119,6 +130,9 @@
   'bug':
     'prefix': 'bug'
     'body': '<!-- BUG: $0 -->'
+  'question':
+    'prefix': 'question'
+    'body': '<!-- QUESTION: $0 -->'
 
 '.html.basic .meta.tag':
   'todo':
@@ -137,6 +151,8 @@
     'prefix': 'review',
   'bug':
     'prefix': 'bug'
+  'question':
+    'prefix': 'question'
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts, .source.php':
   'todo':
@@ -163,6 +179,9 @@
   'bug':
     'prefix': 'bug'
     'body': '// BUG: $0'
+  'question':
+    'prefix': 'question'
+    'body': '// QUESTION: $0'
 
 '.source.css':
   'todo':
@@ -189,6 +208,9 @@
   'bug':
     'prefix': 'bug'
     'body': '/* BUG: $0 */'
+  'question':
+    'prefix': 'question'
+    'body': '/* QUESTION: $0 */'
 
 '.source.css .meta.property-value':
   'todo':
@@ -207,6 +229,8 @@
     'prefix': 'review'
   'bug':
     'prefix': 'bug'
+  'bug':
+    'prefix': 'question'
 
 '.text.html.php':
   'todo':
@@ -233,3 +257,6 @@
   'bug':
     'prefix': 'bug'
     'body': '<?php // BUG: $1 ?>$0'
+  'question':
+    'prefix': 'question'
+    'body': '<?php // QUESTION: $1 ?>$0'
