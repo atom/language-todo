@@ -229,7 +229,7 @@
     'prefix': 'review'
   'bug':
     'prefix': 'bug'
-  'bug':
+  'question':
     'prefix': 'question'
 
 '.text.html.php':
