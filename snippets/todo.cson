@@ -26,6 +26,9 @@
   'question':
     'prefix': 'question'
     'body': '# QUESTION: $0'
+  'remove':
+    'prefix': 'remove'
+    'body': '# REMOVE: $0'
 
 '.text.haml':
   'todo':
@@ -55,6 +58,9 @@
   'question':
     'prefix': 'question'
     'body': '-# QUESTION: $0'
+  'remove':
+    'prefix': 'remove'
+    'body': '-# REMOVE: $0'
 
 '.text.html.ruby, .text.erb':
   'todo':
@@ -84,6 +90,9 @@
   'question':
     'prefix': 'question'
     'body': '<%# QUESTION: $0 %>'
+  'remove':
+    'prefix': 'remove'
+    'body': '<%# REMOVE: $0 %>'
 
 '.text.html.ruby .meta,tag, .text.erb .meta.tag':
   'todo':
@@ -104,6 +113,8 @@
     'prefix': 'bug'
   'question':
     'prefix': 'question'
+  'remove':
+    'prefix': 'remove'
 
 '.html.basic':
   'todo':
@@ -133,6 +144,9 @@
   'question':
     'prefix': 'question'
     'body': '<!-- QUESTION: $0 -->'
+  'remove':
+    'prefix': 'remove'
+    'body': '<!-- REMOVE: $0 -->'
 
 '.html.basic .meta.tag':
   'todo':
@@ -153,6 +167,8 @@
     'prefix': 'bug'
   'question':
     'prefix': 'question'
+  'remove':
+    'prefix': 'remove'
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts, .source.php':
   'todo':
@@ -182,6 +198,9 @@
   'question':
     'prefix': 'question'
     'body': '// QUESTION: $0'
+  'remove':
+    'prefix': 'remove'
+    'body': '// REMOVE: $0'
 
 '.source.css':
   'todo':
@@ -211,6 +230,9 @@
   'question':
     'prefix': 'question'
     'body': '/* QUESTION: $0 */'
+  'remove':
+    'prefix': 'remove'
+    'body': '/* REMOVE: $0 */'
 
 '.source.css .meta.property-value':
   'todo':
@@ -231,6 +253,8 @@
     'prefix': 'bug'
   'question':
     'prefix': 'question'
+  'remove':
+    'prefix': 'remove'
 
 '.text.html.php':
   'todo':
@@ -260,3 +284,6 @@
   'question':
     'prefix': 'question'
     'body': '<?php // QUESTION: $1 ?>$0'
+  'remove':
+    'prefix': 'remove'
+    'body': '<?php // REMOVE: $1 ?>$0'
