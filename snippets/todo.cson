@@ -26,6 +26,12 @@
   'question':
     'prefix': 'question'
     'body': '# QUESTION: $0'
+  'combak':
+    'prefix': 'combak'
+    'body': '# COMBAK: $0'
+  'temp':
+    'prefix': 'temp'
+    'body': '# TEMP: $0'
 
 '.text.haml':
   'todo':
@@ -55,6 +61,12 @@
   'question':
     'prefix': 'question'
     'body': '-# QUESTION: $0'
+  'combak':
+    'prefix': 'combak'
+    'body': '-# COMBAK: $0'
+  'temp':
+    'prefix': 'temp'
+    'body': '-# TEMP: $0'
 
 '.text.html.ruby, .text.erb':
   'todo':
@@ -84,6 +96,12 @@
   'question':
     'prefix': 'question'
     'body': '<%# QUESTION: $0 %>'
+  'combak':
+    'prefix': 'combak'
+    'body': '<%# COMBAK: $0 %>'
+  'temp':
+    'prefix': 'temp'
+    'body': '<%# TEMP: $0 %>'
 
 '.text.html.ruby .meta,tag, .text.erb .meta.tag':
   'todo':
@@ -104,6 +122,10 @@
     'prefix': 'bug'
   'question':
     'prefix': 'question'
+  'combak':
+    'prefix': 'combak'
+  'temp':
+    'prefix': 'temp'
 
 '.html.basic':
   'todo':
@@ -133,6 +155,12 @@
   'question':
     'prefix': 'question'
     'body': '<!-- QUESTION: $0 -->'
+  'combak':
+    'prefix': 'combak'
+    'body': '<!-- COMBAK: $0 -->'
+  'temp':
+    'prefix': 'temp'
+    'body': '<!-- TEMP: $0 -->'
 
 '.html.basic .meta.tag':
   'todo':
@@ -153,6 +181,10 @@
     'prefix': 'bug'
   'question':
     'prefix': 'question'
+  'combak':
+    'prefix': 'combak'
+  'temp':
+    'prefix': 'temp'
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts, .source.php':
   'todo':
@@ -182,6 +214,12 @@
   'question':
     'prefix': 'question'
     'body': '// QUESTION: $0'
+  'combak':
+    'prefix': 'combak'
+    'body': '// COMBAK: $0'
+  'temp':
+    'prefix': 'temp'
+    'body': '// TEMP: $0'
 
 '.source.css':
   'todo':
@@ -211,6 +249,12 @@
   'question':
     'prefix': 'question'
     'body': '/* QUESTION: $0 */'
+  'combak':
+    'prefix': 'combak'
+    'body': '/* COMBAK: $0 */'
+  'temp':
+    'prefix': 'temp'
+    'body': '/* TEMP: $0 */'
 
 '.source.css .meta.property-value':
   'todo':
@@ -231,6 +275,10 @@
     'prefix': 'bug'
   'question':
     'prefix': 'question'
+  'combak':
+    'prefix': 'combak'
+  'temp':
+    'prefix': 'temp'
 
 '.text.html.php':
   'todo':
@@ -260,3 +308,9 @@
   'question':
     'prefix': 'question'
     'body': '<?php // QUESTION: $1 ?>$0'
+  'combak':
+    'prefix': 'combak'
+    'body': '<?php // COMBAK: $1 ?>$0'
+  'temp':
+    'prefix': 'temp'
+    'body': '<?php // COMBAK: $1 ?>$0'
