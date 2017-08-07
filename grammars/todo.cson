@@ -1,6 +1,6 @@
 'scopeName': 'text.todo'
 'name': 'TODO'
-'injectionSelector': 'comment, text.plain'
+'injectionSelector': 'comment, text.plain, text.md, text.markup'
 'patterns': [
   {
     'match': '(?<!\\w)@?(TODO|FIXME|CHANGED|XXX|IDEA|HACK|NOTE|REVIEW|NB|BUG|QUESTION|COMBAK|TEMP)\\b'
