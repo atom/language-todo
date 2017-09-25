@@ -1,5 +1,4 @@
 'scopeName': 'text.todo'
-'name': 'TODO'
 'injectionSelector': 'comment, text.plain'
 'patterns': [
   {
