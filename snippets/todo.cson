@@ -73,6 +73,9 @@
   'temp':
     'prefix': 'temp'
     'body': '-# TEMP: $0'
+  'debug':
+    'prefix': 'debug'
+    'body': '-# DEBUG: $0'
   'optimize':
     'prefix': 'optimize'
     'body': '-# OPTIMIZE: $0'
