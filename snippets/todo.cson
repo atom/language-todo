@@ -112,7 +112,7 @@
     'prefix': 'debug'
     'body': '<%# DEBUG: $0 %>'
 
-'.text.html.ruby .meta,tag, .text.erb .meta.tag':
+'.text.html.ruby .meta.tag, .text.erb .meta.tag':
   'todo':
     'prefix': 'todo'
   'fixme':
