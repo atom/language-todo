@@ -35,6 +35,9 @@
   'debug':
     'prefix': 'debug'
     'body': '# DEBUG: $0'
+  'optimize':
+    'prefix': 'optimize'
+    'body': '# OPTIMIZE: $0'
 
 '.text.haml':
   'todo':
@@ -73,6 +76,9 @@
   'debug':
     'prefix': 'debug'
     'body': '-# DEBUG: $0'
+  'optimize':
+    'prefix': 'optimize'
+    'body': '-# OPTIMIZE: $0'
 
 '.text.html.ruby, .text.erb':
   'todo':
@@ -111,6 +117,9 @@
   'debug':
     'prefix': 'debug'
     'body': '<%# DEBUG: $0 %>'
+  'optimize':
+    'prefix': 'optimize'
+    'body': '<%# OPTIMIZE: $0 %>'
 
 '.text.html.ruby .meta.tag, .text.erb .meta.tag':
   'todo':
@@ -137,6 +146,8 @@
     'prefix': 'temp'
   'debug':
     'prefix': 'debug'
+  'optimize':
+    'prefix': 'optimize'
 
 '.html.basic':
   'todo':
@@ -175,6 +186,9 @@
   'debug':
     'prefix': 'debug'
     'body': '<!-- DEBUG: $0 -->'
+  'optimize':
+    'prefix': 'optimize'
+    'body': '<!-- OPTIMIZE: $0 -->'
 
 '.html.basic .meta.tag':
   'todo':
@@ -201,6 +215,8 @@
     'prefix': 'temp'
   'debug':
     'prefix': 'debug'
+  'optimize':
+    'prefix': 'optimize'
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts, .source.php':
   'todo':
@@ -239,6 +255,9 @@
   'debug':
     'prefix': 'debug'
     'body': '// DEBUG: $0'
+  'optimize':
+    'prefix': 'optimize'
+    'body': '// OPTIMIZE: $0'
 
 '.source.css':
   'todo':
@@ -277,6 +296,9 @@
   'debug':
     'prefix': 'debug'
     'body': '/* DEBUG: $0 */'
+  'optimize':
+    'prefix': 'optimize'
+    'body': '/* OPTIMIZE: $0 */'
 
 '.source.css .meta.property-value':
   'todo':
@@ -303,6 +325,8 @@
     'prefix': 'temp'
   'debug':
     'prefix': 'debug'
+  'optimize':
+    'prefix': 'optimize'
 
 '.text.html.php':
   'todo':
@@ -341,3 +365,6 @@
   'debug':
     'prefix': 'debug'
     'body': '<?php // DEBUG: $1 ?>$0'
+  'optimize':
+    'prefix': 'optimize'
+    'body': '<?php // OPTIMIZE: $1 ?>$0'
