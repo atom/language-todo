@@ -337,7 +337,7 @@
     'body': '<?php // COMBAK: $1 ?>$0'
   'temp':
     'prefix': 'temp'
-    'body': '<?php // COMBAK: $1 ?>$0'
+    'body': '<?php // TEMP: $1 ?>$0'
   'debug':
     'prefix': 'debug'
     'body': '<?php // DEBUG: $1 ?>$0'
