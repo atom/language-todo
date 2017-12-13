@@ -38,6 +38,9 @@
   'optimize':
     'prefix': 'optimize'
     'body': '# OPTIMIZE: $0'
+  'warning':
+    'prefix': 'warning'
+    'body': '# WARNING: $0'
 
 '.text.haml':
   'todo':
@@ -79,6 +82,9 @@
   'optimize':
     'prefix': 'optimize'
     'body': '-# OPTIMIZE: $0'
+  'warning':
+    'prefix': 'warning'
+    'body': '-# WARNING: $0'
 
 '.text.html.ruby, .text.erb':
   'todo':
@@ -120,6 +126,9 @@
   'optimize':
     'prefix': 'optimize'
     'body': '<%# OPTIMIZE: $0 %>'
+  'warning':
+    'prefix': 'warning'
+    'body': '<%# WARNING: $0 %>'
 
 '.text.html.ruby .meta.tag, .text.erb .meta.tag':
   'todo':
@@ -148,6 +157,8 @@
     'prefix': 'debug'
   'optimize':
     'prefix': 'optimize'
+  'warning':
+    'prefix': 'warning'
 
 '.html.basic':
   'todo':
@@ -189,6 +200,9 @@
   'optimize':
     'prefix': 'optimize'
     'body': '<!-- OPTIMIZE: $0 -->'
+  'warning':
+    'prefix': 'warning'
+    'body': '<!-- WARNING: $0 -->'
 
 '.html.basic .meta.tag':
   'todo':
@@ -217,6 +231,8 @@
     'prefix': 'debug'
   'optimize':
     'prefix': 'optimize'
+  'warning':
+    'prefix': 'warning'
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts, .source.php':
   'todo':
@@ -258,6 +274,9 @@
   'optimize':
     'prefix': 'optimize'
     'body': '// OPTIMIZE: $0'
+  'warning':
+    'prefix': 'warning'
+    'body': '// WARNING: $0'
 
 '.source.css':
   'todo':
@@ -299,6 +318,9 @@
   'optimize':
     'prefix': 'optimize'
     'body': '/* OPTIMIZE: $0 */'
+  'warning':
+    'prefix': 'warning'
+    'body': '/* WARNING: $0 */'
 
 '.source.css .meta.property-value':
   'todo':
@@ -327,6 +349,8 @@
     'prefix': 'debug'
   'optimize':
     'prefix': 'optimize'
+  'warning':
+    'prefix': 'warning'
 
 '.text.html.php':
   'todo':
@@ -368,3 +392,6 @@
   'optimize':
     'prefix': 'optimize'
     'body': '<?php // OPTIMIZE: $1 ?>$0'
+  'warning':
+    'prefix': 'warning'
+    'body': '<?php // WARNING: $1 ?>$0'
