@@ -41,6 +41,9 @@
   'warning':
     'prefix': 'warning'
     'body': '# WARNING: $0'
+  'testme':
+    'prefix': 'testme'
+    'body': '# TESTME: $0'
 
 '.text.haml':
   'todo':
@@ -85,6 +88,9 @@
   'warning':
     'prefix': 'warning'
     'body': '-# WARNING: $0'
+  'testme':
+    'prefix': 'testme'
+    'body': '-# TESTME: $0'
 
 '.text.html.ruby, .text.erb':
   'todo':
@@ -129,6 +135,9 @@
   'warning':
     'prefix': 'warning'
     'body': '<%# WARNING: $0 %>'
+  'testme':
+    'prefix': 'testme'
+    'body': '<%# TESTME: $0 %>'
 
 '.text.html.ruby .meta.tag, .text.erb .meta.tag':
   'todo':
@@ -159,6 +168,8 @@
     'prefix': 'optimize'
   'warning':
     'prefix': 'warning'
+  'testme':
+    'prefix': 'testme'
 
 '.html.basic':
   'todo':
@@ -203,6 +214,9 @@
   'warning':
     'prefix': 'warning'
     'body': '<!-- WARNING: $0 -->'
+  'testme':
+    'prefix': 'testme'
+    'body': '<!-- TESTME: $0 -->'
 
 '.html.basic .meta.tag':
   'todo':
@@ -233,6 +247,8 @@
     'prefix': 'optimize'
   'warning':
     'prefix': 'warning'
+  'testme':
+    'prefix': 'testme'
 
 '.source.scss, .source.sass, .source.css.scss, .source.css.sass, .source.css.less, .source.js, .source.go, .source.scala, .source.ts, .source.php, .source.java':
   'todo':
@@ -277,6 +293,9 @@
   'warning':
     'prefix': 'warning'
     'body': '// WARNING: $0'
+  'testme':
+    'prefix': 'testme'
+    'body': '// TESTME: $0'
 
 '.source.css':
   'todo':
@@ -321,6 +340,9 @@
   'warning':
     'prefix': 'warning'
     'body': '/* WARNING: $0 */'
+  'testme':
+    'prefix': 'testme'
+    'body': '/* TESTME: $0 */'
 
 '.source.css .meta.property-value':
   'todo':
@@ -351,6 +373,8 @@
     'prefix': 'optimize'
   'warning':
     'prefix': 'warning'
+  'testme':
+    'prefix': 'testme'
 
 '.text.html.php':
   'todo':
@@ -395,3 +419,6 @@
   'warning':
     'prefix': 'warning'
     'body': '<?php // WARNING: $1 ?>$0'
+  'testme':
+    'prefix': 'testme'
+    'body': '<?php // TESTME: $1 ?>$0'
