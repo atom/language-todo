@@ -234,7 +234,7 @@
   'warning':
     'prefix': 'warning'
 
-'.source.arm':
+'.source.arm, source.asm.arm':
   'todo':
     'prefix': 'todo'
     'body': '@ TODO: $0'
